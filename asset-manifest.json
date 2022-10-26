@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Hongda-Portfolio/static/css/main.1e8952c7.css",
-    "main.js": "/Hongda-Portfolio/static/js/main.8da5875f.js",
-    "static/js/964.d129a5bf.chunk.js": "/Hongda-Portfolio/static/js/964.d129a5bf.chunk.js",
+    "main.js": "/Hongda-Portfolio/static/js/main.a805293d.js",
+    "static/js/964.7fcc846d.chunk.js": "/Hongda-Portfolio/static/js/964.7fcc846d.chunk.js",
     "static/js/117.192bb758.chunk.js": "/Hongda-Portfolio/static/js/117.192bb758.chunk.js",
     "static/js/478.e689f773.chunk.js": "/Hongda-Portfolio/static/js/478.e689f773.chunk.js",
     "static/js/922.fefd4601.chunk.js": "/Hongda-Portfolio/static/js/922.fefd4601.chunk.js",
@@ -27,8 +27,8 @@
     "static/js/133.783a7969.chunk.js": "/Hongda-Portfolio/static/js/133.783a7969.chunk.js",
     "index.html": "/Hongda-Portfolio/index.html",
     "main.1e8952c7.css.map": "/Hongda-Portfolio/static/css/main.1e8952c7.css.map",
-    "main.8da5875f.js.map": "/Hongda-Portfolio/static/js/main.8da5875f.js.map",
-    "964.d129a5bf.chunk.js.map": "/Hongda-Portfolio/static/js/964.d129a5bf.chunk.js.map",
+    "main.a805293d.js.map": "/Hongda-Portfolio/static/js/main.a805293d.js.map",
+    "964.7fcc846d.chunk.js.map": "/Hongda-Portfolio/static/js/964.7fcc846d.chunk.js.map",
     "117.192bb758.chunk.js.map": "/Hongda-Portfolio/static/js/117.192bb758.chunk.js.map",
     "478.e689f773.chunk.js.map": "/Hongda-Portfolio/static/js/478.e689f773.chunk.js.map",
     "922.fefd4601.chunk.js.map": "/Hongda-Portfolio/static/js/922.fefd4601.chunk.js.map",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.1e8952c7.css",
-    "static/js/main.8da5875f.js"
+    "static/js/main.a805293d.js"
   ]
 }
