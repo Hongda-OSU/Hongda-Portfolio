@@ -37,7 +37,7 @@ const data = [
   {
     key: 'leetcode',
     label: 'Leetcode finished',
-    value: 107,
+    value: 109,
     link:
       'https://github.com/Hongda-OSU/Leetcode-Master',
   },

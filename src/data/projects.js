@@ -2,9 +2,9 @@ const data = [
   {
     title: 'Karma',
     subtitle: 'CSE 5912 Capstone - Game Design and Development',
-    image: '',
+    image: '/images/projects/Karma.gif',
     link: 'https://polygamers.itch.io/karma',
-    video: 'https://www.youtube.com/watch?v=uDoa5-KkLkE',
+    video: ['https://www.youtube.com/watch?v=uDoa5-KkLkE', 'https://www.youtube.com/watch?v=JR4xMvp29VI', 'https://www.youtube.com/watch?v=4APYPgMSakU', 'https://www.youtube.com/watch?v=8MOn-IyBBtE&t=64s', 'https://www.youtube.com/watch?v=kkRrNxNF6y8', 'https://www.youtube.com/watch?v=vYTwAUgop38&t=8s', 'https://www.youtube.com/watch?v=Y3CxMg1HIZM&t=23s', 'https://www.youtube.com/watch?v=hycPNatB63U&t=28s'],
     dateBegin: '2022-1-05',
     dateEnd: '2022-5-13',
     desc:
@@ -13,7 +13,7 @@ const data = [
   {
     title: 'Buckeye Schedule',
     subtitle: 'CSE 5236 - Mobile Application Development',
-    image: '',
+    image: '/images/projects/Buckeye.gif',
     link: 'https://github.com/Hongda-OSU/CSE5236-Buckeye-Schedule',
     video: 'https://www.youtube.com/watch?v=yEP96enlJ8k',
     dateBegin: '2022-09-03',
@@ -24,7 +24,7 @@ const data = [
   {
     title: 'Endless Runner',
     subtitle: 'CSE 3541 - Computer Game and Animation',
-    image: '',
+    image: '/images/projects/Runner.gif',
     link: 'https://github.com/Hongda-OSU/CSE3541-Endless-Runner',
     video: 'https://www.youtube.com/watch?v=J23FXJWjgFQ&t=36s',
     dateBegin: '2021-11-20',
@@ -35,7 +35,7 @@ const data = [
   {
     title: 'AI Agents and Steering',
     subtitle: 'CSE 3541 - Computer Game and Animation',
-    image: '',
+    image: '/images/projects/AI.gif',
     link: '',
     video: 'https://www.youtube.com/watch?v=9Ru5QHfA88Q',
     dateBegin: '2021-10-15',
@@ -47,7 +47,7 @@ const data = [
   {
     title: 'The Legend of Zelda (Clone)',
     subtitle: 'CSE 3902 Project - Interactive Systems',
-    image: '',
+    image: '/images/projects/Zelda.gif',
     link: 'https://github.com/Hongda-OSU/CSE-3902-Team-JellyLake-Zelda-',
     video: 'https://www.youtube.com/watch?v=qvB6drBRjdc',
     dateBegin: '2021-08-31',
@@ -58,7 +58,7 @@ const data = [
   {
     title: 'Medical Image Helper',
     subtitle: 'CSE 5546 - Virtual Reality',
-    image: '',
+    image: '/images/projects/Helper.gif',
     link: 'https://github.com/Hongda-OSU/CSE-5546-AR-Eye-Tracking',
     video: 'https://www.youtube.com/watch?v=wyJaXIFSe5I&t=88s',
     dateBegin: '2022-4-25',
