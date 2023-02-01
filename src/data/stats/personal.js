@@ -36,10 +36,17 @@ const data = [
   },
   {
     key: 'leetcode',
-    label: 'Leetcode finished',
-    value: 109,
+    label: 'Leetcode Finished',
+    value: 195,
     link:
       'https://github.com/Hongda-OSU/Leetcode-Master',
+  },
+  {
+    key: 'blog',
+    label: 'Study Blog',
+    value: '鴻達的博客',
+    link:
+      'https://hongda-osu.github.io/',
   },
 ];
 
