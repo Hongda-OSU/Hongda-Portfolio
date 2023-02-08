@@ -12,7 +12,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://hongda-osu.github.io/',
+    link: 'https://hongdalin.blog',
     label: 'Blog',
     icon: faMicroblog,
   },
