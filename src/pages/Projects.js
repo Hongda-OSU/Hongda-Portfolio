@@ -16,7 +16,7 @@ const Projects = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="/projects">Projects</Link></h2>
           <p>A selection of my personal projects that I&apos;m proud of
-            <br />(Click <a href="/projects-pic" rel="noopener noreferrer">here</a> if videos are not shown!)
+            <br />(Click <a href="/pictures" rel="noopener noreferrer">here</a> if videos are not shown!)
           </p>
         </div>
       </header>
