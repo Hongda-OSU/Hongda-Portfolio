@@ -12,7 +12,6 @@ import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
-import Projects from '../pages/Projects';
 import Resume from '../pages/Resume';
 import Stats from '../pages/Stats';
 
@@ -26,11 +25,6 @@ const pages = [
     route: '/about',
     heading: 'About Me',
     component: About,
-  },
-  {
-    route: '/projects',
-    heading: 'Projects',
-    component: Projects,
   },
   {
     route: '/stats',
@@ -65,7 +59,7 @@ test('Renders 404 Page Component', () => {
 
 const checkPageComponent = async (page) => {
   // the ReactPlayer library has some problem, so have to omit this one
-  if (page.heading === 'Projects' || page.heading === 'About this site') return;
+  if (page.heading === 'About this site') return;
   test(`Renders ${page.route} Component`, () => {
     window.scrollTo = () => {}; // TODO mock this later
     renderWithRouter(<page.component />, { route: page.route });
