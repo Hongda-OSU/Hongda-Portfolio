@@ -35,20 +35,6 @@
             } else { open = false; }
         }
     })()).addListener(function () { window.location.reload(); });
-    function toDevtools() {
-        let num = 0;
-        let devtools = new Date();
-        devtools.toString = function () {
-            num++;
-            if (num > 1) {
-                alert('偷偷摸摸看什么呢！👿👿👿')
-                window.location.href = "about:blank"
-            }
-        }
-        console.log('', devtools);
-    }
-    toDevtools();
-    // disable right click
     document.addEventListener('contextmenu', event => event.preventDefault());
     document.onkeydown = function (e) {
         // disable F12 key
