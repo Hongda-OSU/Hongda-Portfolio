@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 import Pic from '../components/Projects/Pic';
 import data from '../data/projects';
 
-const Projects = () => (
+const ProjectsPic = () => (
   <Main
     title="Projects"
     description="Learn about Hongda Lin's projects."
@@ -28,4 +28,4 @@ const Projects = () => (
   </Main>
 );
 
-export default Projects;
+export default ProjectsPic;

@@ -13,6 +13,7 @@ import Contact from '../pages/Contact';
 import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
 import Projects from '../pages/Projects';
+import ProjectsPic from '../pages/ProjectsPic';
 import Resume from '../pages/Resume';
 import Stats from '../pages/Stats';
 
@@ -31,6 +32,11 @@ const pages = [
     route: '/projects',
     heading: 'Projects',
     component: Projects,
+  },
+  {
+    route: '/projects-pic',
+    heading: 'ProjectsPic',
+    component: ProjectsPic,
   },
   {
     route: '/stats',
