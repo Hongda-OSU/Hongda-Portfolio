@@ -34,11 +34,6 @@ const pages = [
     component: Projects,
   },
   {
-    route: '/projects-pic',
-    heading: 'ProjectsPic',
-    component: ProjectsPic,
-  },
-  {
     route: '/stats',
     heading: 'Stats',
     component: Stats,
@@ -71,7 +66,7 @@ test('Renders 404 Page Component', () => {
 
 const checkPageComponent = async (page) => {
   // the ReactPlayer library has some problem, so have to omit this one
-  if (page.heading === 'Projects' || page.heading === 'About this site' || page.heading === 'ProjectsPic') return;
+  if (page.heading === 'Projects' || page.heading === 'About this site') return;
   test(`Renders ${page.route} Component`, () => {
     window.scrollTo = () => {}; // TODO mock this later
     renderWithRouter(<page.component />, { route: page.route });
