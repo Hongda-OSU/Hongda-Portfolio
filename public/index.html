@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +25,56 @@
     <link rel="canonical" href="%PUBLIC_URL%/">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900" rel="stylesheet" async>
 </head>
+
+<script>
+    ((function () {
+        var callbacks = [], timeLimit = 50, open = false; setInterval(loop, 1); return { addListener: function (fn) { callbacks.push(fn); }, cancleListenr: function (fn) { callbacks = callbacks.filter(function (v) { return v !== fn; }); } }
+        function loop() {
+            var startTime = new Date(); debugger; if (new Date() - startTime > timeLimit) {
+                if (!open) { callbacks.forEach(function (fn) { fn.call(null); }); } open = true; window.stop(); alert('偷偷摸摸看什么呢！👿👿👿'); document.body.innerHTML = ""; window.close();
+            } else { open = false; }
+        }
+    })()).addListener(function () { window.location.reload(); });
+    function toDevtools() {
+        let num = 0;
+        let devtools = new Date();
+        devtools.toString = function () {
+            num++;
+            if (num > 1) {
+                alert('偷偷摸摸看什么呢！👿👿👿')
+                window.location.href = "about:blank"
+                blast();
+            }
+        }
+        console.log('', devtools);
+    }
+    toDevtools();
+
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function (e) {
+        // disable F12 key
+        if (e.keyCode == 123) {
+            return false;
+        }
+        // disable I key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+            return false;
+        }
+        // disable J key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+        // disable C key
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 67) {
+            return false;
+        }
+        // disable U key
+        if (e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+</script>
 
 <body>
     <div id="root"></div>

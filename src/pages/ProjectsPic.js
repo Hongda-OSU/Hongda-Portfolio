@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Cell from '../components/Projects/Cell';
+import Pic from '../components/Projects/Pic';
 import data from '../data/projects';
 
 const Projects = () => (
@@ -15,13 +15,11 @@ const Projects = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/projects">Projects</Link></h2>
-          <p>A selection of my personal projects that I&apos;m proud of
-            <br />(Click <a href="/projects-pic" rel="noopener noreferrer">here</a> if videos are not shown!)
-          </p>
+          <p>A selection of my personal projects that I&apos;m proud of</p>
         </div>
       </header>
       {data.map((project) => (
-        <Cell
+        <Pic
           data={project}
           key={project.title}
         />
