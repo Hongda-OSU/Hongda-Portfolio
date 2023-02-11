@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Pic from '../components/Projects/Pic';
+import Picture from '../components/Projects/Picture';
 import data from '../data/projects';
 
-const ProjectsPic = () => (
+const Pictures = () => (
   <Main
     title="ProjectsPic"
     description="Learn about Hongda Lin's projects."
@@ -19,7 +19,7 @@ const ProjectsPic = () => (
         </div>
       </header>
       {data.map((project) => (
-        <Pic
+        <Picture
           data={project}
           key={project.title}
         />
@@ -28,4 +28,4 @@ const ProjectsPic = () => (
   </Main>
 );
 
-export default ProjectsPic;
+export default Pictures;

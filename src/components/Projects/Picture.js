@@ -8,7 +8,7 @@ const handleImage = (data) => (
   </a>
 );
 
-const Pic = ({ data }) => (
+const Picture = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
       <header>
@@ -23,7 +23,7 @@ const Pic = ({ data }) => (
   </div>
 );
 
-Pic.propTypes = {
+Picture.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
@@ -35,4 +35,4 @@ Pic.propTypes = {
   }).isRequired,
 };
 
-export default Pic;
+export default Picture;
