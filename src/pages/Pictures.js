@@ -11,7 +11,7 @@ const Pictures = () => (
     title="Pictures"
     description="Learn about Hongda Lin's projects."
   >
-    <article className="post" id="projects">
+    <article className="post" id="pictures">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/projects">Projects</Link></h2>
