@@ -81,6 +81,6 @@ const checkPageComponent = async (page) => {
 
 pages.forEach((page) => {
   if (page.heading !== 'Projects') {
-    checkPageComponent(page)
+    checkPageComponent(page);
   }
 });
