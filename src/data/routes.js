@@ -1,28 +1,32 @@
 const routes = [
   {
     index: true,
-    label: 'Hongda Lin',
+    label: '林鸿达',
     path: '/',
   },
   {
-    label: 'About',
+    label: '简介',
     path: '/about',
   },
   {
-    label: 'Resume',
+    label: '个人简历',
     path: '/resume',
   },
   {
-    label: 'Projects',
+    label: '项目经历',
     path: '/projects',
   },
   {
-    label: 'Stats',
+    label: '统计',
     path: '/stats',
   },
   {
-    label: 'Contact',
+    label: '与我联系',
     path: '/contact',
+  },
+  {
+    label: '英文版',
+    path: 'https://hongdalin.me/',
   },
 ];
 

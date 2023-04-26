@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-regular-svg-icons/faHeart';
 import ContactIcons from '../Contact/ContactIcons';
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
@@ -12,21 +13,19 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Hongda Lin</h2>
+        <h2>林鸿达</h2>
         <p><a href="mailto:linhongda77@gmail.com">linhongda77@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
-      <p><font size="+2">Hi! </font>
-        I&apos;m Hongda Lin.
-        A senior Computer Science and Engineering student at The Ohio State University.
-        I&apos;m interested in Software Engineering, Computer Graphics and Game Development.
+      <h2>简介</h2>
+      <p><font size="+2">嗨! </font>
+        我是林鸿达，一名俄亥俄州立大学计算机科学与工程专业的大四学生。我对软件工程、计算机图形学和游戏开发很感兴趣。
       </p>
       <ul className="actions">
         <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
+          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">了解更多</Link> : <Link to="/about" className="button">简介</Link>}
         </li>
       </ul>
     </section>
@@ -34,9 +33,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Hongda Lin <Link to="/">Hongda&apos;s Portfolio</Link>.
-        {/* <br />
-        Forked from <a href="https://github.com/mldangelo/personal-site">MICHAEL D&apos;ANGELO&apos;s great work</a>. */}
+        &copy; <Link to="/">林鸿达的个人网站</Link> <FontAwesomeIcon icon={faHeart} beat style={{ color: '#f50000' }} /> 维运 2022 - 2023.
       </p>
     </section>
   </section>

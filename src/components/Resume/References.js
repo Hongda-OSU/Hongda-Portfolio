@@ -18,9 +18,8 @@ const References = () => (
     <div className="link-to" id="references" />
     <div className="title">
       <h3>
-        Download My
-        <Link to="/resume" onClick={() => onButtonClick('Resume.pdf')}> Resume </Link> |
-        <Link to="/resume" onClick={() => onButtonClick('Recommendation letter for Hongda Lin.pdf')}> Testimonial </Link>
+        <Link to="/resume" onClick={() => onButtonClick('Resume.pdf')}> 个人简历 </Link> |
+        <Link to="/resume" onClick={() => onButtonClick('Recommendation letter for Hongda Lin.pdf')}> 推荐信 </Link>
       </h3>
     </div>
   </div>

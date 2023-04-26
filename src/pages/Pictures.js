@@ -14,8 +14,8 @@ const Pictures = () => (
     <article className="post" id="pictures">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/projects">Projects</Link></h2>
-          <p>A selection of my personal projects that I&apos;m proud of</p>
+          <h2 data-testid="heading"><Link to="/projects">项目经历</Link></h2>
+          <p>让我引以为豪的个人项目经历</p>
         </div>
       </header>
       {data.map((project) => (

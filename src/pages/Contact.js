@@ -13,19 +13,15 @@ const Contact = () => (
     <article className="post" id="contact">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/contact">Contact</Link></h2>
+          <h2 data-testid="heading"><Link to="/contact">与我联系</Link></h2>
         </div>
       </header>
       <div className="email-at">
-        <p>Feel free to get in touch.</p>
+        <p>欢迎您与我取得联系！</p>
         <ul>
-          <li>Phone: 614-537-7582</li>
-          <li>Email:
-            <ul>
-              <li>Work: <a href="mailto:lqh2646517813@163.com">lqh2646517813@163.com</a></li>
-              <li>Personal: <a href="mailto:linhongda77@gmail.com">linhongda77@gmail.com</a></li>
-            </ul>
-          </li>
+          <li>微信: hdlin52</li>
+          <li>手机: 614-537-7582</li>
+          <li>邮箱: linhongda77@gmail.com </li>
         </ul>
         <EmailLink />
       </div>

@@ -16,6 +16,12 @@ const sections = [
   'References',
 ];
 
+const sectionRef = {
+  Education: '教育经历',
+  Experience: '项目经验',
+  References: '简历和推荐信',
+};
+
 const Resume = () => (
   <Main
     title="Resume"
@@ -24,11 +30,11 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <h2 data-testid="heading"><Link to="resume">个人简历</Link></h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+                <a href={`#${sec.toLowerCase()}`}>{sectionRef[sec]}</a>
               </h4>))}
           </div>
         </div>

@@ -26,25 +26,25 @@ const data = [
   // },
   {
     key: 'major',
-    label: 'Major GPA (CS)',
+    label: '专业绩点（CS）',
     value: '3.954',
   },
   {
     key: 'cumulative',
-    label: 'Cumulative GPA',
+    label: '平均绩点',
     value: '3.822',
   },
   {
     key: 'leetcode',
-    label: 'Leetcode',
-    value: 225,
+    label: '力扣 Leetcode',
+    value: 'Leetcode Master',
     link:
       'https://github.com/Hongda-OSU/Leetcode-Master',
   },
   {
     key: 'blog',
-    label: 'Blog',
-    value: '鴻達的博客',
+    label: '个人博客',
+    value: '鴻鵠誌達',
     link:
       'https://hongdalin.blog',
   },

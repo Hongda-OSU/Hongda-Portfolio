@@ -1,33 +1,33 @@
 
-# Intro
+# 介绍
 
-I am a senior Computer Science and Engineering student at The Ohio State University. My primary interests are software development and gaming industries. Over the past three years, I developed a systematic knowledge base in computer science through taking courses in software engineering, computer graphics, game development, visualization, and so on. If you think I can be helpful to you or would like to meet me, please feel free to [get in touch](/contact).
+我是俄亥俄州立大学计算机科学与工程专业的大四学生。 我的兴趣是软件开发和游戏行业。 在过去的四年里，通过学习软件工程、计算机图形学、游戏开发、可视化等课程，我在计算机科学方面建立了系统的知识储备。 如果您认为我能对您有所帮助，欢迎与您[取得联系](/contact)。
 
-# I like
+# 我喜欢
 
-- Basketball
-- Hiking
-- The Aquarium
-- Sunshine
-- Octopath Traveler
-- Elden Ring
-- The Lord of the Rings
-- Lofi Musics
-- Good Design
-- Hard Working
+- 篮球
+- 爬山
+- 水族馆
+- 太阳天
+- 歧路旅人
+- 埃尔登之戒
+- 指环王
+- Lofi 音乐
+- 好的设计
+- 认真与努力
 
-# Fun facts
+# 有趣的事
 
-- I wanted to be a race car driver when I was a kid.
-- I like walking to school, even in winter.
-- I can't hold back my tears when I see a very moving movie.
-- I love fishing so much that I brought myself a small plastic boat.
-- I've tried learning guitar to get girls' attention and trust me it's not going to work.
+- 我小时候想成为一名赛车手。
+- 我喜欢步行上学，即使是在冬天。
+- 当我看到一部非常感人的电影时，我止不住眼泪。
+- 我非常喜欢钓鱼，所以我给自己买了一艘小塑料船。
+- 我试过学习吉他来引起女孩的注意，但相信我，这是行不通的。
 
-# I dream of
+# 我梦想
 
-- always finding inspiration.
-- enabling a brighter future.
-- doing better.
-- becoming a billionaire.
-- making more games.
+- 总是能够找到灵感。
+- 创造更好的未来。
+- 做我喜欢的事。
+- 成为亿万富翁。
+- 制作更多游戏。

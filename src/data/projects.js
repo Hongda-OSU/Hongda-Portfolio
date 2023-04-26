@@ -4,11 +4,11 @@ const data = [
     subtitle: 'CSE 5912 Capstone - Game Design and Development',
     image: '/images/projects/Karma.gif',
     link: 'https://polygamers.itch.io/karma',
-    video: ['https://www.youtube.com/embed/uDoa5-KkLkE', 'https://www.youtube.com/embed/JR4xMvp29VI', 'https://www.youtube.com/embed/4APYPgMSakU', 'https://www.youtube.com/embed/8MOn-IyBBtE&t=64s', 'https://www.youtube.com/embed/kkRrNxNF6y8', 'https://www.youtube.com/embed/vYTwAUgop38&t=8s', 'https://www.youtube.com/embed/Y3CxMg1HIZM&t=23s', 'https://www.youtube.com/embed/hycPNatB63U&t=28s'],
+    video: ['https://www.youtube.com/embed/uDoa5-KkLkE', 'https://www.youtube.com/embed/JR4xMvp29VI'],
     dateBegin: '2022-1-05',
     dateEnd: '2022-5-13',
     desc:
-      'Karma is a First-Person Shooting game that gives players an awesome gameplay experience while exploring different maps, skill trees, and customizable elements in RPG crawlers.',
+      'Karma 是一款第一人称射击游戏，在探索 RPG 世界中地图、技能树和可自定义元素的同时，为玩家提供了绝佳的游戏体验。',
   },
   {
     title: 'Buckeye Schedule',
@@ -19,7 +19,18 @@ const data = [
     dateBegin: '2022-09-03',
     dateEnd: '2022-12-04',
     desc:
-      'Buckeye Schedule is an Android application aimed on helping college students schedule things. Students could use the device camera to take a photo and set a reminder for the generated schedule.',
+      'Buckeye Schedule 是一款专注于帮助大学生安排日程的 Android 应用程序。 学生可以使用设备相机拍照生成日程模板，并为生成的日程设置提醒推送。',
+  },
+  {
+    title: 'Affordable Health Access Inc.',
+    subtitle: 'CSE 5911 Capstone - Software Applications',
+    image: '/images/projects/Affordable.png',
+    link: 'https://drive.google.com/drive/folders/1aOcFvLyJfXS00N2vea8rMn65GUg4lIf5?usp=sharing',
+    video: 'https://www.youtube.com/watch?v=l78ShugcO8w&t=52s',
+    dateBegin: '2023-01-18',
+    dateEnd: '2023-04-20',
+    desc:
+      'Affordable 是一家非营利医疗基金项目。作为学生开发者，我们旨在帮助 Affordable 设计更好的前端 UI，完成必要的支付款功能，并构建测试套件以确保基本功能可以正常使用。',
   },
   {
     title: 'Endless Runner',
@@ -30,30 +41,29 @@ const data = [
     dateBegin: '2021-11-20',
     dateEnd: '2021-12-05',
     desc:
-      'Endless Runner is a running game with cool animation and infinite level generation. The player will try to run as far as he/she can while collecting items and avoiding obstacles.',
+      'Endless Runner 是一款无限关卡生成的跑酷游戏。 玩家将尽可能地跑，同时收集物品并避开障碍物。',
   },
   {
     title: 'AI Agents and Steering',
     subtitle: 'CSE 3541 - Computer Game and Animation',
     image: '/images/projects/AI.gif',
-    link: '',
+    link: 'https://www.youtube.com/embed/9Ru5QHfA88Q',
     video: 'https://www.youtube.com/embed/9Ru5QHfA88Q',
     dateBegin: '2021-10-15',
     dateEnd: '2021-10-25',
     desc:
-      'Learned about behavior-based animation techniques by implementing algorithms such as spatial agent vision and steering behavior. '
-      + 'The predator (blue) is aimed to catch the prey and the prey (red) is aimed to reach the goal (red square) while avoid being catched.',
+      '学习空间视觉和转向行为算法，尝试通过设计捕食者（蓝色）和猎物（红色）来搭建 Behavioral Based Animation。',
   },
   {
     title: 'The Legend of Zelda (Clone)',
     subtitle: 'CSE 3902 Project - Interactive Systems',
     image: '/images/projects/Zelda.gif',
     link: 'https://github.com/Hongda-OSU/CSE-3902-Team-JellyLake-Zelda-',
-    video: 'https://www.youtube.com/embed/qvB6drBRjdc',
+    video: ['https://www.youtube.com/embed/qvB6drBRjdc', 'https://www.youtube.com/watch?v=ux-Na31vBi0&t=22s'],
     dateBegin: '2021-08-31',
     dateEnd: '2022-12-13',
     desc:
-      'Restored the complete Level 1 dungeon of classic game Legend of Zelda 1986, including 10 player abilities, 15 enemies and 25 items. Implemented procedural dungeon generation algorithm.',
+      '完整还原了经典游戏塞尔达传说 1986 的 Level 1 地牢，包括 10 个玩家能力、15 个敌人和 25 个物品。',
   },
   {
     title: 'Medical Image Helper',
@@ -64,8 +74,8 @@ const data = [
     dateBegin: '2022-4-25',
     dateEnd: '2022-5-08',
     desc:
-      'A simple medical image helper for tracking pathologist\'s eye-movement. We use Dlib + CV2 to track the gaze direction and detect eye blink. '
-      + 'And we use Unity to shift the image toward the gaze direction when blink happens.',
+      '一个简单的医学图像助手，用于跟踪病理学家的眼球运动。 我们使用 Dlib + CV2 来跟踪注视方向并检测眨眼。'
+      + '当眨眼发生时，使用 Unity 将图像向注视方向移动。',
   },
   {
     title: 'CraftMine (Mincraft Clone)',
@@ -75,7 +85,7 @@ const data = [
     dateBegin: '2021-10-20',
     dateEnd: '2022-01-20',
     desc:
-      'Learned to build a voxel-based world like Minecraft and the application of Perlin Noise in terrain generation. Achieved the basic player interactions including navigation and building system.',
+      '学习了构建像 Minecraft 这样基于体素的世界以及 Perlin Noise 在地形生成中的应用。 实现了基本的用户交互，包括玩家控制和建筑系统。',
   },
   {
     title: 'L-System Generator',
@@ -85,7 +95,7 @@ const data = [
     dateBegin: '2022-09-23',
     dateEnd: '2022-10-15',
     desc:
-      'Created an OpenGL program that produces growing 2D plant models based on L-system (Lindenmayer system) with skybox.',
+      '创建了一个 OpenGL 程序，该程序模拟创建由 L 系统（Lindenmayer 系统）生成的 2D 植物模型。',
   },
   {
     title: 'Data Visualization',
@@ -95,7 +105,7 @@ const data = [
     dateBegin: '2022-09-03',
     dateEnd: '2022-12-04',
     desc:
-      'Stock and Energy data visualized using D3 and Pandas.',
+      '使用 D3 和 Pandas 可视化的能源数据。（还有很多其他可视化项目）',
   },
 ];
 

@@ -7,7 +7,7 @@ const Education = ({ data }) => (
   <div className="education">
     <div className="link-to" id="education" />
     <div className="title">
-      <h3>Education</h3>
+      <h3>教育经历</h3>
     </div>
     {data.map((degree) => (
       <Degree
@@ -23,7 +23,8 @@ Education.propTypes = {
     school: PropTypes.string,
     degree: PropTypes.string,
     link: PropTypes.string,
-    year: PropTypes.number,
+    startYear: PropTypes.number.isRequired,
+    endYear: PropTypes.number.isRequired,
   })),
 };
 

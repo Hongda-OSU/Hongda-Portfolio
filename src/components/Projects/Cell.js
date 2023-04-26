@@ -5,22 +5,15 @@ import ReactPlayer from 'react-player/lazy';
 
 const videoControl = true;
 
-const canPlayVideo = (video) => {
-  if (Array.isArray(video)) {
-    return video.every((v) => ReactPlayer.canPlay(v));
-  }
-  return ReactPlayer.canPlay(video);
-};
-
 const handleImage = (data) => (
-  <a href={data.link} className="image">
+  <a href={data.link} className="image" target="_blank" rel="noopener noreferrer">
     <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
   </a>
 );
 
 const handleVideo = (data) => (
   <a href={data.link} className="image" target="_blank" rel="noopener noreferrer">
-    {canPlayVideo(data.video) ? <ReactPlayer url={data.video} controls={videoControl} width="100%" height={window.innerWidth < 500 ? '100%' : '480px'} onError={() => handleImage(data)} config={{ youtube: { playerVars: { origin: 'https://www.youtube.com' } } }} /> : handleImage(data)}
+    <ReactPlayer url={data.video} controls={videoControl} width="100%" height={window.innerWidth < 500 ? '100%' : '480px'} onError={() => handleImage(data)} config={{ youtube: { playerVars: { origin: 'https://www.youtube.com' } } }} />
   </a>
 );
 
@@ -33,7 +26,7 @@ const Cell = ({ data }) => (
       </header>
       { 'video' in data ? handleVideo(data) : handleImage(data)}
       <div className="description">
-        {data.title === 'Karma' ? <p>{data.desc} <a href="https://www.youtube.com/watch?v=JR4xMvp29VI&t=816s" target="_blank" rel="noopener noreferrer">(Demo Gameplay)</a>.</p> : <p>{data.desc}</p>}
+        {data.title === 'Karma' ? <p>{data.desc} <a href="https://www.youtube.com/watch?v=JR4xMvp29VI&t=816s" target="_blank" rel="noopener noreferrer">演示游戏</a>.</p> : <p>{data.desc}</p>}
       </div>
     </article>
   </div>
