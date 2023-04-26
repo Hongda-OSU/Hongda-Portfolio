@@ -75,7 +75,7 @@ const checkPageComponent = async (page) => {
     window.scrollTo = () => {}; // TODO mock this later
     renderWithRouter(<page.component />, { route: page.route });
     // 中文版无效
-    // const linkElement = screen.getByTestId('heading'); 
+    // const linkElement = screen.getByTestId('heading');
     // expect(linkElement).toHaveTextContent(page.heading);
   });
 };
