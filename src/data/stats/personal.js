@@ -26,12 +26,12 @@ const data = [
   // },
   {
     key: 'major',
-    label: '专业绩点（CS）',
+    label: '专业绩点（计算机）',
     value: '3.954',
   },
   {
     key: 'cumulative',
-    label: '平均绩点',
+    label: '综合绩点',
     value: '3.822',
   },
   {
@@ -43,7 +43,7 @@ const data = [
   },
   {
     key: 'blog',
-    label: '个人博客',
+    label: '博客',
     value: '鴻鵠誌達',
     link:
       'https://hongdalin.blog',

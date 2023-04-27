@@ -28,9 +28,7 @@ const Hamburger = () => {
           <ul className="hamburger-ul">
             {routes.map((l) => (
               <li key={l.label}>
-                <Link to={l.path} onClick={() => setOpen(!open)}>
-                  <h3 className={l.index && 'index-li'}>{l.label}</h3>
-                </Link>
+                { l.label === '英文版' ? <a href={l.path} className="English" rel="noopener noreferrer"><h3 className={l.index && 'index-li'}>{l.label}</h3></a> : <Link to={l.path} onClick={() => setOpen(!open)}><h3 className={l.index && 'index-li'}>{l.label}</h3></Link> }
               </li>
             ))}
           </ul>
