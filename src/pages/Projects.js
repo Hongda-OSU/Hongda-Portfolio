@@ -15,7 +15,7 @@ const Projects = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/projects">项目经历</Link></h2>
-          <p>让我引以为豪的个人项目经历
+          <p>一些让我引以为豪的个人项目经历
             <br />如果视频没有显示，请刷新或点击<Link to="/pictures">这里</Link>
           </p>
         </div>

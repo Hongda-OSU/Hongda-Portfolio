@@ -27,12 +27,12 @@ const data = [
   {
     key: 'major',
     label: '专业绩点（计算机）',
-    value: '3.954',
+    value: '3.956',
   },
   {
     key: 'cumulative',
     label: '综合绩点',
-    value: '3.822',
+    value: '3.827',
   },
   {
     key: 'leetcode',
