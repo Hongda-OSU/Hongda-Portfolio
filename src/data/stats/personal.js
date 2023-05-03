@@ -41,13 +41,6 @@ const data = [
     link:
       'https://github.com/Hongda-OSU/Leetcode-Master',
   },
-  {
-    key: 'blog',
-    label: '博客',
-    value: '鴻鵠誌達',
-    link:
-      'https://hongdalin.blog',
-  },
 ];
 
 export default data;
