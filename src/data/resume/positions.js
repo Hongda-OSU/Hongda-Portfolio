@@ -1,5 +1,15 @@
 const positions = [
   {
+    title: 'Pawstopia',
+    position: '初创公司全栈工程师实习',
+    link: '',
+    daterange: 'May 2023 - Current',
+    points: [
+      '参与了一个名为 Pawstopia 的微信小程序的开发，该程序采用了 React，Taro，Redux，ASP.NET 等技术进行开发。',
+      '使用 UmiJS，DvaJS，和 Ant Design 等技术开发后台管理系统。',
+    ],
+  },
+  {
     title: 'Affordable Health Access Inc.',
     position: '毕设项目团队组长',
     link: 'https://www.youtube.com/watch?v=l78ShugcO8w&t=52s',

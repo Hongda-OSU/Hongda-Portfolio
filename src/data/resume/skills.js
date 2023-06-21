@@ -3,53 +3,63 @@
 
 const skills = [
   {
-    title: 'React.JS',
-    competency: 3,
-    category: ['Web Development'],
+    title: 'ReactJS',
+    competency: 5,
+    category: ['Fullstack Development'],
   },
   {
     title: 'JavaScript',
-    competency: 4,
-    category: ['Web Development', 'Languages'],
+    competency: 5,
+    category: ['Fullstack Development', 'Languages'],
   },
   {
     title: 'TypeScript',
+    competency: 5,
+    category: ['Fullstack Development', 'Languages'],
+  },
+  {
+    title: 'HTML + CSS',
+    competency: 5,
+    category: ['Fullstack Development'],
+  },
+  {
+    title: 'ReduxJS',
     competency: 4,
-    category: ['Web Development', 'Languages'],
+    category: ['Fullstack Development'],
   },
   {
-    title: 'HTML + SCSS/CSS',
+    title: 'TaroJS',
+    competency: 4,
+    category: ['Fullstack Development'],
+  },
+  {
+    title: 'Weixin Dev Tool',
+    competency: 4,
+    category: ['Fullstack Development'],
+  },
+  {
+    title: 'UmiJS',
+    competency: 4,
+    category: ['Fullstack Development'],
+  },
+  {
+    title: 'ASP.NET',
     competency: 3,
-    category: ['Web Development'],
+    category: ['Fullstack Development'],
   },
   {
-    title: 'Express.js',
-    competency: 2,
-    category: ['Web Development'],
+    title: 'DvaJS',
+    competency: 4,
+    category: ['Fullstack Development'],
   },
   {
-    title: 'Node.js',
-    competency: 2,
-    category: ['Web Development'],
-  },
-  {
-    title: 'Ruby',
-    competency: 2,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'Ruby on Rails',
-    competency: 2,
-    category: ['Web Development'],
+    title: 'NodeJS',
+    competency: 3,
+    category: ['Fullstack Development'],
   },
   {
     title: 'Playwright',
     competency: 4,
-    category: ['Web Testing'],
-  },
-  {
-    title: 'Allure2',
-    competency: 3,
     category: ['Web Testing'],
   },
   {
@@ -60,82 +70,57 @@ const skills = [
   {
     title: 'Java',
     competency: 4,
-    category: ['Mobile App Development', 'Languages'],
+    category: ['Languages'],
   },
   {
-    title: 'SQLite3/MySQL',
+    title: 'MySQL',
     competency: 3,
-    category: ['Web Development', 'Mobile App Development'],
+    category: ['Database'],
+  },
+  {
+    title: 'PostgreSQL',
+    competency: 3,
+    category: ['Database'],
   },
   {
     title: 'Firebase/Firestore',
-    competency: 2,
-    category: ['Mobile App Development'],
+    competency: 3,
+    category: ['Database'],
   },
   {
     title: 'Python',
     competency: 4,
-    category: ['Data Analysis', 'Languages'],
+    category: ['Languages'],
   },
   {
     title: 'D3.js',
     competency: 4,
-    category: ['Data Analysis', 'Visualization'],
-  },
-  {
-    title: 'Pandas',
-    competency: 3,
-    category: ['Data Analysis'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Analysis', 'Visualization'],
-  },
-  {
-    title: 'Jupyter Notebook',
-    competency: 3,
-    category: ['Data Analysis'],
+    category: ['Visualization'],
   },
   {
     title: 'Unity',
     competency: 4,
-    category: ['Graphics', 'Game Development'],
+    category: ['Game Development'],
   },
   {
     title: 'C#',
-    competency: 4,
-    category: ['Game Development', 'Languages'],
-  },
-  {
-    title: 'MonoGame',
-    competency: 2,
-    category: ['Game Development'],
-  },
-  {
-    title: 'Unreal',
-    competency: 2,
-    category: ['Game Development'],
+    competency: 5,
+    category: ['Languages'],
   },
   {
     title: 'OpenGL',
     competency: 3,
-    category: ['Graphics'],
+    category: ['Game Development'],
   },
   {
     title: 'C++',
     competency: 3,
-    category: ['Graphics', 'Languages', 'Game Development'],
-  },
-  {
-    title: 'WebGL',
-    competency: 2,
-    category: ['Graphics'],
+    category: ['Languages'],
   },
   {
     title: 'Blender',
     competency: 2,
-    category: ['Graphics'],
+    category: ['Game Development'],
   },
   {
     title: 'C',
@@ -143,33 +128,8 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Assembly',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Shell',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'F#',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
     title: 'Git/Github',
-    competency: 4,
-    category: ['Tools'],
-  },
-  {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools'],
-  },
-  {
-    title: 'Amazon Web Services',
-    competency: 2,
+    competency: 5,
     category: ['Tools'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
