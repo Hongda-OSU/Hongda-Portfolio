@@ -3,11 +3,12 @@ const positions = [
     title: 'Pawstopia',
     position: '初创公司全栈工程师实习',
     link: '',
-    daterange: '五月 2023 - 现在',
+    daterange: '五月 2023 - 现在（支持 EVL 证书）',
     points: [
-      '参与了 Pawstopia 宠物社交应用的开发。',
-      '为 Pawstopia 的全栈开发做出贡献，使用了如 ReactJS，Redux，Weixin Devtools，Taro，UmiJS，ASP.NET 等技术。',
-      '实现了各种功能，包括宠物图像上传，宠物声音录制和爪印扫描。',
+      '参与了 Pawstopia 的开发，一个在宠物社交网络领域进行创新的初创公司',
+      '使用前端工具如 ReactJS 和 Redux，以及后端解决方案如 Azure 和腾讯云，为 Pawstopia 的全栈开发做出了贡献。',
+      '实现了各种功能，包括宠物主人分享宠物照片、录制宠物叫声，并通过爪印扫描建立数字身份的功能。',
+      '受到微信朋友圈和微博发现页的启发，构建了一个以宠物为中心的社区。',
     ],
   },
   {

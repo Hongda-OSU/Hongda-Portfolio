@@ -10,7 +10,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/Mee.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/Meee.jpg`} alt="" />
       </Link>
       <header>
         <h2>林鸿达</h2>
@@ -21,7 +21,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>简介</h2>
       <p><font size="+2">嗨! </font>
-        我是林鸿达，一名西北大学计算机专业研究生。我对软件工程、计算机图形学和游戏开发抱有兴趣。
+        我是林鸿达，一名西北大学计算机专业研究生。我对我对探索 Web3D、AI 助手开发以及其他新兴技术感兴趣。
       </p>
       <ul className="actions">
         <li>
